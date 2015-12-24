@@ -1,0 +1,9 @@
+/Users/vikas/Documents/hackathon/AMS/ams-server/src/main/java/com/ams/api/controller/AuthController.java
+/Users/vikas/Documents/hackathon/AMS/ams-server/src/main/java/com/ams/api/Application.java
+/Users/vikas/Documents/hackathon/AMS/ams-server/src/main/java/com/ams/api/repository/UserDao.java
+/Users/vikas/Documents/hackathon/AMS/ams-server/src/main/java/com/ams/api/config/Config.java
+/Users/vikas/Documents/hackathon/AMS/ams-server/src/main/java/com/ams/api/config/RepositoryConfig.java
+/Users/vikas/Documents/hackathon/AMS/ams-server/src/main/java/com/ams/api/service/AuthService.java
+/Users/vikas/Documents/hackathon/AMS/ams-server/src/main/java/com/ams/api/model/Serializable.java
+/Users/vikas/Documents/hackathon/AMS/ams-server/src/main/java/com/ams/api/model/User.java
+/Users/vikas/Documents/hackathon/AMS/ams-server/src/main/java/com/ams/api/model/Credential.java

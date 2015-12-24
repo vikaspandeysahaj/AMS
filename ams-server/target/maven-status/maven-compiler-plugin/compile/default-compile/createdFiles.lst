@@ -1,0 +1,9 @@
+com/ams/api/model/Serializable.class
+com/ams/api/model/User.class
+com/ams/api/repository/UserDao.class
+com/ams/api/config/Config.class
+com/ams/api/model/Credential.class
+com/ams/api/Application.class
+com/ams/api/service/AuthService.class
+com/ams/api/config/RepositoryConfig.class
+com/ams/api/controller/AuthController.class
