@@ -1,64 +1,43 @@
 package com.ams.api.model;
 
-import java.util.Date;
+import com.ams.api.model.assetType.AssetType;
+
+import java.util.UUID;
 
 /**
- * Created by vikas on 24/12/15.
+ * Created by vikas on 13/01/16.
  */
 public class Asset {
 
-    private int id;
-    private String title;
-    private AssetType assetType;
-    private String brand;
-    private Date purchasedDate;
-    private AssetState state;
+    private AssetType type;
+    private String Name;
+    private UUID id;
 
-    public int getId() {
+    public Asset(AssetType type){
+        this.setType(type);
+    }
+
+    public AssetType getType() {
+        return type;
+    }
+
+    public void setType(AssetType type) {
+        this.type = type;
+    }
+
+    public String getName() {
+        return Name;
+    }
+
+    public void setName(String name) {
+        Name = name;
+    }
+
+    public UUID getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(UUID id) {
         this.id = id;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public AssetType getAssetType() {
-        return assetType;
-    }
-
-    public void setAssetType(AssetType assetType) {
-        this.assetType = assetType;
-    }
-
-    public String getBrand() {
-        return brand;
-    }
-
-    public void setBrand(String brand) {
-        this.brand = brand;
-    }
-
-    public Date getPurchasedDate() {
-        return purchasedDate;
-    }
-
-    public void setPurchasedDate(Date purchasedDate) {
-        this.purchasedDate = purchasedDate;
-    }
-
-    public AssetState getState() {
-        return state;
-    }
-
-    public void setState(AssetState state) {
-        this.state = state;
     }
 }
