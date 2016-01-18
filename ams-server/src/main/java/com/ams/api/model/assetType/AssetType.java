@@ -1,11 +1,29 @@
 package com.ams.api.model.assetType;
 
+import org.springframework.stereotype.Repository;
+
+import javax.persistence.*;
+import java.util.UUID;
+
 /**
  * Created by vikas on 13/01/16.
  */
+
+@Entity
+@Repository
+@Table(name="AssetType")
 public class AssetType {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "ASSET_TYPE_ID")
+    private int id;
+
+
+    @Enumerated(EnumType.STRING)
     private TYPE_NON_IT type_non_it;
+
+    @Enumerated(EnumType.STRING)
     private TYPE_IT type_it;
 
 
